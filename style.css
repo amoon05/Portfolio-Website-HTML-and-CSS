@@ -348,3 +348,9 @@ footer p {
         padding-bottom: 10vh;
     }
 }
+
+@media (hover: none) {
+    .projects-content {
+        opacity: 1;
+    }
+}
