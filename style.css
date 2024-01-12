@@ -350,7 +350,7 @@ footer p {
 }
 
 @media (hover: none) {
-    .projects-content::before {
-        opacity: 0;
+    .projects-content {
+        opacity: 1;
     }
 }
