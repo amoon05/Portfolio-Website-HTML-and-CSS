@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="Aaron Moon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This page contains my information">
     <title>Aaron Moon</title>
-    <link rel="icon" href="icons/moon.png" type="image/x-icon">
+    <link rel="icon" href="pictures/moon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
 </head>
@@ -14,29 +15,29 @@
         <a id="logo" href="">AM.</a>
         <nav>
                 <ul>
-                    <li><a href="#">Home</a></li> 
-                    <li><a href="#about">About</a></li> 
-                    <li><a href="#projects">Projects</a></li> 
+                    <li><a class="header-links" href="#">Home</a></li> 
+                    <li><a class="header-links" href="#about">About</a></li> 
+                    <li><a class="header-links" href="#projects">Projects</a></li> 
                 </ul>
         </nav>
-        <a id="contact-me" href="">Contact Me</a>
+        <a class="header-links" href="mailto:aaronmoonn@gmail.com">Contact Me</a>
     </section>
 
     <section class="first-body" id="home">
         <div class="text-header">
-            <h2 class="intro">Hi, I'm Aaron Moon!</h2>
+            <h1 id="intro">Hi, I'm Aaron!</h1>
         </div>
         <div class="about-boxes">
             <div id="boxes-left">
                 <div class="boxes-text">
-                    <h3>
+                    <h2>
                         Software Engineer
-                    </h3>
+                    </h2>
                     <h5>
                         Orange County, CA
                     </h5>
                 </div>
-                <img id="oc-image" src="icons/OC.jpg" alt="">
+                <img id="oc-image" src="pictures/OC.jpg" alt="">
             </div>
             <div id="boxes-right">
                 <div class="boxes-text">
@@ -47,7 +48,7 @@
                         University of California, San Diego
                     </h5>
                 </div>
-                <img id="geisel-image" src="icons/UCSD Geisel.jpg" alt="">
+                <img id="geisel-image" src="pictures/UCSD Geisel.jpg" alt="">
             </div>
         </div>
     </section>
@@ -58,7 +59,7 @@
             </h2>
         </div>
         <div id="about-me">
-            <img id="portrait" src="picture/portrait.jpg" alt="">
+            <img id="portrait" src="pictures/portrait.jpg" alt="">
             <p id="about-me-text">My name is Aaron Moon! I am a third-year student at University of California, San Diego majoring in Mathematics - Computer Science. I am hoping to pursue a full-time career in Technical Consulting but also interested in Software Engineering. <br><br>I was born and raised in Orange County, California but I love to travel and visit new places. I love learning new things, whether it be for my professional career or exploring new hobbies, but above all, I enjoy the little things life has to offer. I enjoy spending time with my friends and family, listening to indie music on late night drives, going to the gym and climbing,exploring tasty restaurants, and so much more.
             </p> 
         </div>
@@ -69,10 +70,53 @@
                 Projects!
             </h2>
         </div>
-        <div id="projects-images">
-            <img src="icons/Website Picture.png" alt="">
-            <img src="icons/Google.png" alt="">
+        <div class="projects-container">
+            <div class="projects-image">
+                <img src="pictures/Website Picture.png" alt="">
+                <div class="projects-content">
+                    <h2 class="content-words">
+                        Portfolio Website
+                    </h2>
+                    <h3 class="content-words">
+                        HTML, CSS
+                    </h3>
+                    <p class="content-words">
+                        This portfolio website is my first front-end project. It is  responsive website serving as a base home page displaying my professional portfolio. I learned HTML and CSS by working on this project. This project is also hosted on Github pages.
+                    </p>
+                </div>
+            </div>
+            <div class="projects-image">
+                <img src="pictures/Google.png" alt="">
+                <div class="projects-content">
+                    <h2 class="content-words">
+                        Project #2
+                    </h2>
+                    <h3 class="content-words">
+                        Technologies Used
+                    </h3>
+                    <p class="content-words">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, minus! Esse molestiae, quasi quis corporis hic eum sapiente architecto eos, dolore nisi minus consequatur eligendi nemo, omnis fugiat? Odio, ab.
+                    </p>
+                </div>
+            </div>
+            
         </div>
+    </section>
+    <section>
+        <footer>
+            <div>
+                <a href="#"><img id="footer-logo" src="pictures/Moon.png" alt=""></a>
+            </div>
+            <div>
+                <a class="footer-links" href="https://github.com/amoon05/Portfolio-Website-HTML-and-CSS">Github</a>
+                <a class="footer-links" href="https://linkedin.com/in/aaronmoonn">LinkedIn</a>
+                <a class="footer-links" href="mailto:aaronmoonn@gmail.com">Email</a>
+                <a class="footer-links" href="Resume.pdf" download="Moon, Aaron - Resume">Resume</a>
+            </div>
+            <p>
+                Copyright &copy; 2024 Aaron Moon
+            </p>
+        </footer>
     </section>
 </body>
 </html>
